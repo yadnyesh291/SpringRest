@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .result {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Arithmetic Result</h1>
+        <div class="result">
+            Result: <span th:text="${result}"></span>
+        </div>
+    </div>
+</body>
+</html>

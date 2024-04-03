@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Operations [CALCULATOR USING REST]</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Arithmetic Operations [CALCULATOR USING REST]</h1>
+        
+        <h2>Addition</h2>
+        <form action="/add" method="get">
+            <input type="number" name="num1" placeholder="Enter first number">
+            <input type="number" name="num2" placeholder="Enter second number">
+            <button type="submit">Calculate</button>
+        </form>
+        
+        <h2>Subtraction</h2>
+        <form action="/subtract" method="get">
+            <input type="number" name="num1" placeholder="Enter first number">
+            <input type="number" name="num2" placeholder="Enter second number">
+            <button type="submit">Calculate</button>
+        </form>
+        
+        <h2>Multiplication</h2>
+        <form action="/multiply" method="get">
+            <input type="number" name="num1" placeholder="Enter first number">
+            <input type="number" name="num2" placeholder="Enter second number">
+            <button type="submit">Calculate</button>
+        </form>
+        
+        <h2>Division</h2>
+        <form action="/divide" method="get">
+            <input type="number" name="num1" placeholder="Enter first number">
+            <input type="number" name="num2" placeholder="Enter second number">
+            <button type="submit">Calculate</button>
+        </form>
+    </div>
+</body>
+</html>
